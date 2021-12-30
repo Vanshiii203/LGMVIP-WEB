@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Architects+Daughter&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+.App{
+  height: 100vh;
+  background: #CACAE3;
+}
+
+.nav{
+  background-color: rgba(31, 36, 36, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.getButton button{
+  padding: 7px;
+  background-color: #ffffff;
+  color: #E69A8DFF;
+  font-size: 20px;
+  font-weight: bolder;
+  float: right;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+}
+.nav .getButton button:hover{
+  background-color:  #E69A8DFF;
+  color: #ffffff;
+}
+
+.nav .name{
+  font-size: 37px;
+  color: white;
+  font-weight: bolder;
+  
+}
+.nav .name .n1{
+  color: #5F4B8BFF;
+  font-family: 'Arbutus Slab', serif;
+}
+.nav .name .n2{
+  color: #E69A8DFF;
+  font-family: 'Arbutus Slab', serif;
+}
+.row{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 83vh;
+}
+.row .col{
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+}
+.loader {
+  align-items: center;
+  border-radius: 50%;
+  border-top: 10px solid #E69A8DFF;
+  border-right: 10px solid #5F4B8BFF;
+  border-bottom: 10px solid #E69A8DFF;
+  border-left: 10px solid #5F4B8BFF;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 15s linear infinite;
+ position: absolute;
+ top: 45%;
+ right: 50%;
+ left: 48%;
+ bottom: 50%;
+ transform: translate(-50%,-50%);
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(3600deg); }
+}
