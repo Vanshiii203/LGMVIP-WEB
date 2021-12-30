@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Mono:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #282129;
+}
+.navbar{
+background-color:#787878;
+width: 100%;
+    height: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+padding: 0.7rem;
+font-family: 'Roboto';
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+    background-color:#787878;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0.5rem;
+    font-size: 2rem;
+    background-color:#787878;
+
+}
+.navbar ul li a{
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 7px 13px;
+    border-radius: 3px;
+    background-color:#787878;
+}
+.new{
+    color: #f9bec7;
+    margin: 0.3rem;
+    background-color:rgba(120, 120, 120,0.9);
+
+}
+.para{
+    font-family: 'Poppins';
+}
+.head{
+    background-color:rgba(120, 120, 120,0.9);
+}
+.navbar ul li a:hover{
+    color:#f9bec7 ;
+}
+.btn{
+    background-color: #f9bec7;
+    padding: 0.6rem;
+    color: black;
+    margin: 1rem;
+    font-family: cursive;
+    font-size: 1rem;
+   } 
+   .am{
+    background-color: #f9bec7;
+    color: black;
+    text-decoration: none;
+   }
+   .am:hover{
+    background-color:white ;  
+   }
+   .btn:hover{
+    background-color:white ; 
+    
+}
+.header{
+   text-align: center;
+   color: white;
+}
+.para{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Poppins';
+}
+.head1{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins';
+}
+.container{ 
+    margin: 10px auto;
+    width: 74rem;
+   text-align: center;
+} 
+  .image{
+    width: 32rem;
+    float: right;
+    height: 34rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}  
+.hea{
+    text-align: left;
+    margin-top: 15rem;
+    margin-left: 55%;
+    color: white;
+    font-family: 'Ubuntu';
+        font-size:2.5rem;
+    }
+.paragraph{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-size: 1.3rem;
+    color: white;
+    font-family: 'Poppins';
+}
+.img{
+    width: 29rem;
+    float: left;
+    height: 30rem;
+    border:9px solid black;
+    margin-top: 15rem;
+    margin-left: 2rem;
+}  
+.field{
+    color:#f9bec7  ;
+}
+.fi{
+   margin-left: 38%;
+}
+.name{
+    color:#f9bec7  ;
+}
+#Skills{
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    justify-content:space-between;
+}
+.contain{
+    margin: 10px auto;
+width: 74rem;
+margin-top: 2rem;
+}
+
+.hea2{
+    margin-top:10rem;
+    margin-left: 6rem;
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    color: white;
+}
+h3{
+    text-align: center;
+}
+.skill{
+    text-align: center;
+    padding: 1.3rem;
+    text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	border: 2.5px solid white;
+	margin-left: 1rem;
+    width: 30rem;
+    height: 23rem;
+}
+
+.skill:hover{
+	border: 3px solid #f9bec7;
+}
+
+.skill i{
+	color:#f9bec7;
+	padding: 2rem;
+	border-radius: 4rem;
+}
+.para2{
+    font-size: 1rem;
+margin: 10px auto;
+color: white;
+text-align: center;
+margin-top: 1rem;
+font-family: 'Poppins';
+font-size: 0.9rem;
+}
+.one{
+    color:#f9bec7;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+}
+#Experience{
+    display: flex;
+    flex: 1; 
+    align-items: center;
+    justify-content:space-between;
+margin-top: 2rem;
+}
+.hea3{
+    margin-top:10rem;
+    text-align: left;
+    margin-left: 6rem;
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    color: white;
+}
+.exp{
+    color: #f9bec7;
+    font-family: 'Poppins';
+font-size: 1.5rem;
+
+}
+.experi{
+    text-align: center;
+    padding: 1.3rem;
+	border: 2.5px solid white;
+    width: 45rem;
+    height: 16rem;
+    margin-right: 1rem;
+	margin-left: 6rem;
+}
+.experi:hover{
+	border: 3px solid #f9bec7;
+}
+
+.para4{
+    color: white;
+    margin-top: 3.5rem;
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+}
+.para5{
+    color: white;
+    margin-top: 1.3rem;
+    font-family: 'Poppins';
+    font-size: 0.9rem;
+}
+.hea4{
+    margin-top: 10rem;
+    font-family: 'Ubuntu';
+    font-size:2.5rem;
+    color: white;
+
+}
+.Cont{
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+.Cont i{
+    background-color:#f9bec7;
+	padding: 1rem;
+	border-radius: 4rem;
+}
+.head8{
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: 'Ubuntu';
+}
+.para8{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+}
+.form{
+    text-align: center;
+    margin-top: 2rem;
+}
+input{
+    height: 3.5rem;
+    width: 50rem;
+    border: 3px solid #f9bec7;
+    margin-bottom: 1.5rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+textarea{
+    height: 3.5rem;
+    width: 50rem;
+    border: 3px solid #f9bec7;
+    margin-bottom: 1.3rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'Poppins';
+}
+.btnn{
+    margin-top: 1.2rem;
+    text-align: center;
+    background-color: #f9bec7;
+    padding: 0.6rem;
+    color: black;  
+    font-family: cursive;
+    font-size: 1rem;
+}
+.btnn:hover{
+    background-color:white; 
+}
+footer{
+    border: 2rem solid #787878;
+    margin-top: 3rem;
+    background-color:#787878;
+    color: white;
+}
+.foot{
+    text-align: center;
+    background-color:#787878;
+    font-size: 1.5rem;
+}
+.myname{
+    color: #f9bec7;
+    background-color:#787878;
+    font-size: 1.5rem;
+}
+.social{
+    text-align: left;
+    padding: 1rem;
+    background-color:#787878;
+    color: white;
+}
+footer i{
+    background-color:#787878; 
+}
+
